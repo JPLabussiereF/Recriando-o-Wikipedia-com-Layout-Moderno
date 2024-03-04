@@ -1,12 +1,16 @@
     body, html {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     }
 
     ul { list-style: none; padding-left: 5px; }
 
     a { color:blue; text-decoration: none;}
+    a:hover {
+        text-decoration: underline; /* Adiciona sublinhado quando o mouse passa sobre o link */
+    }
+
 
     .bar {
     background-color: #f9f9fb;
@@ -15,7 +19,7 @@
     border-bottom: solid 1px #cdcdcd;
     }
 
-    .content {
+    section {
     max-width: 1440px;
     margin: auto;
     grid-gap: 3rem;
@@ -29,14 +33,22 @@
     footer {
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
+    font-size: 0.8em;
     }
-    .anchors {
+    aside {
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
     }
-    .sidebar {
+    nav {
     border-right: solid 1px #cdcdcd;
+    padding-right: 15px;
     }
     /* figure {
     text-align: center;
     } */
+
+    blockquote {
+        font-style: italic;
+        background-color: lightgrey;
+        color: black;
+    }

@@ -7,38 +7,220 @@
     <title>Neurociência - CloneWik</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+    <style>
+        #logo {
+            padding-left: 190px;
+        }
+        .container {
+        overflow: hidden; /* Limpa o float interno */
+        }
 
+        .image {
+            float: left; /* Alinha a imagem à esquerda */
+            margin-right: 10px; /* Margem à direita para separar a imagem do texto */
+        }
+
+        .text {
+            overflow: hidden; /* Limpa o float do texto */
+        }
+
+    </style>
+<body>
     <header>   
-        <figure>
-            <img src="assets/images/logo.png" width="200" alt = "Logotipo da CloneWik"/>
+        <figure id="logo">
+            <div class="container">
+                <img src="assets\images\wik.png" width="45" alt = "Logotipo da CloneWik" class="image"/>  
+                <div class="text">
+                <figcaption><b>WIKIPÉDIA</b></figcaption>
+                <figcaption>A enciclopédia livre</figcaption>
+            </div>
+        </div>
         </figure>
     </header>
 
     <div class="bar"></div>
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
-            <ul>
-                <li><a href="#">Links</a></li>
-            </ul>
-        </div>
+    <section>
+        <nav>
+            <h2>Índice</h2>
+            <hr/>
+            <lu>
+                <li><a href="#inicio" tabindex="1">Início</a></li>
+                <li><a href="#acerca" tabindex="2">Acerca de nomes e métodos</a></li>
+                <li><a href="#celular" tabindex="3">Neurociência celular e molecular</a></li>
+                <li><a href="#problemas" tabindex="4">O cérebro, a mente e os seus problemas</a></li>
+                <li><a href="#historia" tabindex="5">Um pouco de história</a></li>
+                <li><a href="#autores" tabindex="6">Autores</a></li>
+                <li><a href="#biblio" tabindex="7">Bibliografia</a></li>
+                <li><a href="#ligacoes" tabindex="8">Ligações externas</a></li>
+            </lu>
+        </nav>
 
         <main>
+            <h1 id = "inicio">Neurociência</h1>
+            <hr/>
+            <p><b>Neurociência</b> é o estudo científico do sistema nervoso. Tradicionalmente, a neurociência tem sido vista como um ramo da biologia. Entretanto, atualmente ela é uma ciência 
+            interdisciplinar que colabora com outros campos como a educação, química, ciência da computação, engenharia, antropologia, linguística, matemática, medicina e disciplinas afins, 
+            filosofia, física, comunicação, anatomia e psicologia. O termo neurobiologia é usado alternadamente com o termo neurociência, embora o primeiro se refira especificamente à biologia 
+            do sistema nervoso, enquanto o último se refere à inteira ciência do sistema nervoso.</p>
+
+            <p>O escopo da neurociência tem sido ampliado para incliir diferentes abordagens usadas para estudar os aspectos moleculares, celilares, de desenvolvimento, estruturais, 
+            funcionais, evolitivos e médicos do sistema nervoso, ainda sendo ampliado para incliir a cibernética como estudo da comunicação e controle no animal e na máquina com resultados 
+            fecundos para ambas áreas do conhecimento. As técnicas usadas pelos neurocientistas têm sido expandidas enormemente, com contribuições desde estudos moleculares e celilares de 
+            neurônios individuais até do imageamento de tarefas sensoriais e motoras no cérebro. Avanços teóricos atuais na neurociência têm sido auxiliados pelo estudo das redes neurais ou com 
+            apenas a concepção de circuitos (sistemas) e processamento de informações que tornam-se modelos de investigação com tecnologia biomédica e/ou clínica.</p>
+
+            <p>Dado o número crescente de cientistas que estudam o sistema nervoso, várias proeminentes organizações de neurociência têm sido formadas para prover um fórum para todos os 
+            neurocientistas e educadores. Por exemplo, a <i>International Brain Research Organization</i> foi fundada em 1960, a <i>Society for Neuroscience</i> em 1969, a <i>Sociedade Brasileira de 
+            Neurociências e Comportamento</i> em 1976 e a <i>Sociedade Portuguesa de Neurociências</i> em 1992.</p>
+            
+            <hr/>
+            <h3 id = "acerca">Acerca de nomes e métodos</h3>
+            <hr/>
+            <p>Observe-se que a maioria dos vocábulos com prefixo neuro podem ser substituídos ou associados ao prefixo psico, a moderna neurociência tende a reunir as produções 
+            isoladas face ao risco de perder a visão global do seu objeto de estudo: o sistema nervoso, contudo a complexidade deste, e em especial do sistema nervoso central da espécie
+            humana, exige o estudo isolado de cada campo e o exercício da inter-relação de pesquisas. Existem pelo menos 5 maneiras ou áreas de estudo da relação entre sistema nervoso e 
+            comportamento e/ou sua fisiologia:</p>
+            <ol>
+                <li>O espectro animal – diversidade de modelos que a natureza oferece e os padrões reconhecíveis de comportamento e de estrutura anatômica e bioquímica. Atividade também denominada Neuroetologia.</li>
+                <li>As diversas patologias e lesões anatômicas e suas consequências funcionais. Para deficiência mental, por exemplo, já se conhece pelo menos 300 causas.</li>
+                <li>Os estágios do desenvolvimento humano/animal e envelhecimento. Existem estágios previsíveis de modificação anatômico-funcional e comportamental nas diversas fases do desenvolvimento do SN humano.</li>
+                <li>Efeito de drogas em diferentes sítios anatômicos, Existe certo consenso quanto a 3 formas básicas de efeito farmacológico de drogas no sistema nervoso. As substâncias psicoativas podem ser classificadas como lépticas (estimulantes); analépticas (depressoras) e dislépticas (modificadoras). É nesse último grupo que se enquadram as substâncias conhecidas como alicinógenos ou enteógenos.</li>
+                <li>Estudo da mente (psique), a inteligência, capacidade cognitiva e/ou comportamento (neuropsicologia). Para um grande conjunto de alterações comportamentais estudadas pela psicopatologia e criminologia ainda não existe consenso sobre suas causas biológicas e psicossociais. O mesmo pode ser dito para alterações psiconeuroendócrino fisiológicas da experiência religiosa ou êxtase religioso e estados alterados de consciência induzidos por técnicas como meditação e yoga, bem como demais alterações funcionais do sistema nervoso em a sua interação na cultura estudados na ótica da neuroantropologia</li>
+            </ol>
+
+            <p>Múltiplas inter-relações entre esses diversos métodos e possibilidades de estudos são possíveis, contudo ainda não existe grandes teorias que façam da neurociência uma única 
+            teoria ou método científico com suas múltiplas aplicações práticas na área médica (Neurologia, Psiquiatria, Anestesia, Endocrinologia, Medicina Psicossomática) ou em outras ciências 
+            da saúde (Psicologia, Fisioterapia, Antropologia Biológica, Fonoaudiologia, Terapia Ocupacional, Ortóptica, Neurortopedia bucal, etc.).</p>
+            
+            <hr/>
+            <h3 id = "celular">Neurociência celular e molecular</h3>
+            <hr/>
+            <p>O estudo do sistema nervoso central se dá por meio de diversas perspectivas, estando presentes desde técnicas de análises comportamentais e cognitivas, até análise de mecanismo 
+            moleculares e celulares.</p>
+
+            <p>À nível molecular, existem questões primordiais a serem respondidas como, por exemplo, mecanismos pelos quais neurônios expressam e respondem às demais sinalizações moleculares. 
+            Outro exemplo da aplicação de análises moleculares na neurociência é aprimorar o entendimento de como os axônios podem gerar uma rede complexa e interconectada. Nesse contexto, 
+            ferramentas de biologia molecular e genética podem ser utilizadas para compreender como ocorre o desenvolvimento de um neurônio e quais são as infliências moleculares, diretas ou 
+            indiretas, que são capazes de afetar funções neurobiológicas.</p>
+
+            <figure align = "center">
+                <img src = "assets\images\seretonima.png" alt = "Imagem da molécula Serotonina">
+                <figcaption><a href="https://pt.wikipedia.org/wiki/Serotonina" target="_blank">Serotonina</a></figcaption>
+            </figure>
+
+            <p>À nível celular, a neurociência visa compreender mecanismos pelos quais os neurônios processam informações fisiológicas e eletroquímicas. Estas questões incliem o entendimento e 
+            a correlação de estruturas neuronais com suas funções. O corpo celilar, por exemplo, é a região que contém o núcleo do neurônio e, portanto, toda a informação genética da célila. Os
+            dendritos, por sua vez, são funcionalmente especializados com a função de recebimento da informação sináptica. Finalmente, os axônios são especializados na condução do impulso 
+            nervoso. Dessa maneira, o entendimento de como ocorre a neurotransmissão e a sinalização elétrica são de extrema importância para a compreensão das funções neuronais.</p>
+
+            <hr/>
+            <h3 id = "problemas">O cérebro, a mente e os seus problemas</h3>
+            <hr/>
+            
+            <p>Além da tarefa ainda não concliída em milhares de anos de pesquisas, especulações, tentativas, erros e acertos sobre a anatomia e fisiologia do cérebro e de suas 
+            funções, sejam o comportamento/pensamento (psique) ou os mecanismos de regulação orgânica e interação psicossocial alguns problemas se impõem aos pesquisadores, destacando-se 
+            entre estes os que podem ser reunidos pela patologia.</p>
+            
+            <p>Ressalte-se, porém, a inconveniência de reduzir a neurociência à clínica e anatomia patológica como na história da medicina já se fez, e perdermos de vista a possibilidade 
+            de construção de um conhecimento da saúde (não redutível ao oposto qualificativo da doença) considerando também as dificuldades de aplicação dos conceitos da patologia às 
+            variações genéticas e bioquímicas das espécies e natureza da psique e/ou comportamento.</p>
+            
+            <figure align = "center">
+                <img src = "assets\images\Parasagittal_MRI_of_human_head_in_patient_with_benign_familial_macrocephaly_prior_to_brain_injury_(ANIMATED).gif" alt = "Um gif sobre a 'Ressonância magnética parassagital' da cabeça de paciente com macrocefalia familial benigna">
+                <figcaption>Ressonância magnética parassagital da cabeça de paciente com macrocefalia familial benigna</figcaption>
+            </figure>
+
+            <hr/>
+            <h3 id = "historia">Um pouco de história</h3>
+            <hr/>
+
+            <p>Se não considerarmos que o conhecimento de métodos de tratamento invasivo como trepanações das medicinas antigas e pré colombianas; utilização de plantas psicoativas e 
+            outras técnicas de modificação da consciência e anestesia (similares à yoga e acupuntura) fazem parte da neurociência, podemos tomar como data de criação desta interdisciplina a 
+            publicação de De morbis nervorum em 1735 , de autoria do médico holandês Herman Boerhaave (1668 - 1738), considerado o primeiro tratado de neurologia.</p>
+
+            <p>Observe-se porém que alguns autores consideram Thomas Willis, (1621-1675), autor do "Cerebri anatome: cui accessit nervorum descriptio et usus" (1664), como também, um possível 
+            fundador da neurologia, a exemplo de Charles Scott Sherrington, (1852-1952). Entre outros méritos atribuídos a ele, estão as perfeitas de descrições anatômicas publicadas, entre as 
+            quais, é conhecido de todos o círculo arterial na base do cérebro até hoje identificadoo como "polígono de de Willis"</p>
+
+            <p>Pode-se ainda marcar seu início com a descoberta da função cerebral[36] atribuída ao grego Alcmaeon da escola Pitagórica de Croton em torno de 500 aC, que 
+            discorreu sobre as funções sensitivas deste. Suas observações foram confirmadas por Herófilo, um dos fundadores da escola de medicina de Alexandria (século III aC.), que descreveu 
+            as meninges e a rete mirabile (rede maravilhosa) de nervos (distinguindo este dos vasos) e medula com suas conexões com cérebro, cujo conhecimento foi sistematizado e demonstrado 
+            empiricamente, através do corte seletivo de nervos, por Galeno (130-211 aC.).</p>
+
+            <p>Para "Bear et al" o estudo do encéfalo é tão antigo quanto a ciência e entre as disciplinas que o estudam inclii a matemática, destacando ainda as reflexões de Hipócrates sobre 
+            esse órgão no clássico da medicina, atribuído a ele: <blockquote>" Acerca das doenças sagradas" (Hipócrates Séc V a.C.). ...o homem deve saber que de nenhum outro ligar mas do 
+            encéfalo, vem a alegria, o prazer, o riso, e a diversão, o pesar e o ressentimento, o desânimo e a lamentação...por esse mesmo órgão tornamo-nos loucos e delirantes, e medos e 
+            terrores nos assombram...Nesse sentido sou da opinião de que o encéfalo exerce o maior poder sobre o homem... </blockquote>Ressalta, porém que a palavra neurociência é jovem e que 
+            a primeira associação de neurociência foi fundada somente em 1970.</p>
+            
+            <hr/>
+            <h3 id = "autores">Autores</h3>
+            <hr/>
+            <p>Ver artigo principal: <a href="https://pt.wikipedia.org/wiki/Lista_de_autores_de_neuroci%C3%AAncia" target="_blank">Lista de autores de neurociência</a></p>
+            <p>Ver artigo na Wikipedia: <a href="https://pt.wikipedia.org/wiki/Neuroci%C3%AAncia#" target="_blank">Neurociência na Wikipedia</a></p>
+
+            <hr/>
+            <h3 id = "biblio">Bibliografia</h3>
+            <hr/>
+
+            <lu>
+                <li>Alexander, Franz G, Selesnick, Sheldon T. História da psiquiatria: uma avaliação do pensamento e da prática psiquiátrica desde os tempos primitivos até o presente. São Paulo : Ibrasa, 1968.</li>
+                <li>Canguilhem, Georges. O Normal e patológico, RJ, Forense-Universitária, 1982</li>
+                <li>Foucault, Michael. Doença Mental e Psicologia, RJ, Tempo-Brasileiro, 1968</li>
+                <li>Hubel, David H. El cérebro, edicion especial sobre neurobiologia da Investigacion y Ciência, nº 38. Barcelona, noviembro de 1979 ou The Brain, Scientific American nº 3, v 241. USA, september 1979</li>
+                <li>Kandel, Eric R.; Schwartz, James H.; Jessell, Thomas M. Fundamentos da neurociência do comportamento. RJ, Guanabara Koogan, 1997</li>
+                <li>Lent, Roberto (Ed.). As ciências do cérebro. Numero especial da Rev. Ciência Hoje, v16/ nº 94, Rio de Janeiro, setembro-outubro de 1993</li>
+                <li>McGaugh, J.L.; Weinberger, N.M.; Whalen, R.E. Psicobiologia, as bases biológicas do comportamento. (textos do Scientific American). SP, EDUSP – Polígono, 1970</li>
+            </lu>
+
+            <hr/>
+            <h3 id = "ligacoes">Ligações externas</h3>
+            <hr/>
+
+            <lu>
+                <li><a href="http://www.neurorede.com/" target="_blank">NEUROREDE - Primeira Rede Social Colaborativa de Neurociências em Língua Portuguesa</a></li>
+                <li><a href="http://cienciasecognicao.org/" target="_blank">Organização Ciências e Cognição (OCC)</a></li>
+                <li><a href="https://web.archive.org/web/20160908030657/http://neurolab.com.br/" target="_blank">Portal de Neurociências com Sistema de Busca de Artigos Científicos em PDF</a></li>
+                <li><a href="http://www.neurocurso.com/" target="_blank">Cursos Online de Neurociências com Recursos Multimídia - Certificados pela UFMG</a></li>
+                <li><a href="http://www.netmed.com.br/neurologia" target="_blank">NetMed - NeuroCiências e Neurologia</a></li>
+                <li><a href="https://web.archive.org/web/20120119031707/http://www.inec-usp.org/inec.htm" target="_blank">Instituto de Neurociências & Comportamento (INeC)</a></li>
+                <li><a href="https://web.archive.org/web/20120508011847/http://www.natalneuro.org.br/" target="_blank">Instituto Internacional de Neurociências de Natal</a></li>
+                <li><a href="https://web.archive.org/web/20090502015131/http://www.braincampaign.org/Pub/Pub_Main_Display.asp?LC_Docs_ID=2780" target="_blank">Neurociencias: Ciência do Cérebro</a></li>
+                <li><a href="http://www.sbnp.com.br/" target="_blank">Sociedade Brasileira de Neuropsicologia</a></li>
+                <li><a href="https://web.archive.org/web/20070827170800/http://www.anato.ufrj.br/l_neurobiocel.html" target="_blank">Neurobiologia Celular</a></li>
+                <li><a href="https://web.archive.org/web/20071020024148/http://ia.ucpel.tche.br/~lpalazzo/Aulas/IA/" target="_blank">Inteligência Artificial</a></li>
+                <li><a href="http://www.cerebromente.org.br/" target="_blank">Cérebro & Mente, Revista Eletrônica de Divulgação Científica em NeuroCiência</a></li>
+                <li><a href="http://www.ibneuro.com.br/" target="_blank">IBNeuro Instituto Brasiliense de Neuropsicologia e Ciências Cognitivas</a></li>
+                <li><a href="http://www.infran.ru/" target="_blank">Pavlov Institute of Physiology</a></li>
+                <li><a href="https://notes.utk.edu/bio/greenberg.nsf/0/59ecc50dfe63bafe85256cc20057ab13?OpenDocument" target="_blank">Comparative Animal Behavior Research: THE ETHOGRAM</a></li>
+                <li><a href="http://www.brainmuseum.org/" target="_blank">University of Wisconsin and Michigan State Comparative Mammalian Brain Collections</a></li>
+                <li>Squire, Larry R. (ed). The History of Neuroscience in Autobiography (8 V.) <a href="" target="_blank">Society for Neuroscience</a> Acesso em Junho 2014</li>
+            </lu>
+            
             
         </main>
 
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
-    </div>
+        <aside>
+            <h2>Ferramentas</h2>
+            <hr/>
+            <lu>
+                <li><a href="https://pt.wikipedia.org/wiki/Neuroci%C3%AAncia" target="_blank">Página Original</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Especial:P%C3%A1ginas_afluentes/Neuroci%C3%AAncia" target="_blank">Páginas afluentes</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Especial:Altera%C3%A7%C3%B5es_relacionadas/Neuroci%C3%AAncia" target="_blank">Alterações relacionadas</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Wikipedia:Carregar_ficheiro" target="_blank">Carregar ficheiro</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Especial:P%C3%A1ginas_especiais" target="_blank">Páginas especiais</a></li>
+                <li><a href="https://pt.wikipedia.org/w/index.php?title=Neuroci%C3%AAncia&oldid=66402404" target="_blank">Hiperligação permanente</a></li>
+                <li><a href="https://pt.wikipedia.org/w/index.php?title=Neuroci%C3%AAncia&action=info" target="_blank">Informações da página</a></li>
+                
+            </lu>
+        </aside>
+    </section>
 
     <footer>
+        <p>Esta página foi editada pela última vez às 08h43min de 4 de março de 2024</p>
+        <p>Este texto é disponibilizado nos termos da licença <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt">Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0) da Creative Commons</a>; pode estar sujeito a condições adicionais. Para mais detalhes, consulte as <a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use">condições de utilização</a>.</p>
 
-    </footer>
+    </footer> 
 </body>
 </html>
